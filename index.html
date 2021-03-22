@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<style>
+body{
+margin:0px;
+background-color:#252525;
+}
+div.top{
+background-color: #141004;
+margin:0px;
+}
+.up{
+float:right;
+color: #F9A602;
+margin:60px 50px 0px 0px;
+Font-family: garamond,serif;
+Font-weight: bold;
+}
+.up1{
+color: #F9A602;
+}
+.logo{
+width:13%;
+Padding:10px;
+}
+.nav{
+background-color: #F9A602;
+list-style-type:none;
+Margin:0px;
+Padding: 0px;
+}
+a{
+text-decoration:none;
+}
+.nav a{
+color: #141004;
+font-size:180%;
+Padding:30px;
+Margin:0px;
+}
+.nav li{
+padding:20px 17.5px;
+display:inline-block;
+margin:0px;
+border:2px solid #141004;
+}
+.nav li:hover{
+background-color: #141004;
+}
+.nav li a:hover{
+color:white;
+}
+
+.imgcon{
+    Width:600px;
+    Margin:10px 150px;
+    }
+    ul.icon{
+    list-style-type:none;
+    margin:0px;
+    background-color: #141004;
+    }
+   li.icon{
+   padding:20px 22px;
+   border:none;
+   display: inline-block;
+   }
+   img.icons{
+   width:100px;
+   }
+   h2{
+   Font-style:italic;
+   font-family: tahoma;
+   Text-align:center;
+   Background-color:#141004;
+   Color: #F9A602;
+   padding: 20px;
+   Margin:-4px;
+   Font-size:40px;
+   }
+   hr{
+   border:2px solid #141004;
+   Background-color:white;
+}
+.bot{
+background-color:#141004;
+color: white;
+text-align:center;
+font-size: 50px;
+}
+.about{
+Color:white;
+Display:block;
+}
+.bot:hover{
+background-color: #F9A602;
+}
+.bot .about:hover{
+color: black;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.cont{
+margin:20px 5px;
+    padding:15px;
+    border:1.5px solid #666666
+}
+</style>
+</head>
+
+
+
+<body>
+
+<div id="navbar">
+<div class="top">
+<img class="logo" src="logo.jpg">
+<h1 class="up"><a class="up1" href="index.html">WANTED : PLAYERS</a></h1>
+</div>
+<hr style="height:2px">
+
+<ul class="nav">
+<li><a href="#">Players</a></li>
+<li><a href="#">Admins</a></li>
+<li><a href="#">Games</a></li>
+<li><a href="#">Polls</a></li>
+<li><a href="#">History</a></li>
+</ul>
+</div>
+<hr style="height:2px">
+
+<div style="margin-top:40px" class="cont">
+<img style="margin:0px" height="150%" width="100%" src="cover.jpg">
+<h2>Smarter than Google, faster than bell.</h2>
+</div>
+<hr style="height:2px;margin:0px;">
+<div class="cont">
+<img style="margin:0px" height="150%" width="100%" src="desc.jpg">
+<h2>WPU Description</h2>
+</div>
+<hr style="height:2px;margin:0px;">
+<div class="cont">
+<img style="margin:0px" height="150%" width="100%" src="mis.jpg">
+<h2>Mission</h2>
+</div>
+<hr style="height:2px;margin:0px;">
+<div class="cont">
+<img style="margin:0px" height="150%" width="100%" src="vis.jpg">
+<h2>Vision</h2>
+</div>
+<hr style="height:2px;margin:0px;">
+<div class="cont">
+<img style="margin:0px" height="150%" width="100%" src="acad.jpg">
+<h2>Coming Soon</h2>
+</div>
+
+<br>
+<br>
+<br>
+<hr style="height:2px">
+<div class="bot"><a class="about" href="#.html">About Us</a></div>
+<hr style="height:1px;margin:0px">
+<ul class="icon">
+<li class="icon"><img class="icons" src="fb.png"></li>
+  <li class="icon"><img class="icons" src="twt.png"></li>
+  <li class="icon"><img class="icons" src="ig.png"></li>
+  <li class="icon"><img class="icons" src="yt.png"></li>
+  <li class="icon"><img class="icons" src="rdt.png"></li>
+  <li class="icon"><img class="icons" src="dc.png"></li>
+
+</body>
+<script>
+window.onscroll = function() {myFunction()};
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</html>
